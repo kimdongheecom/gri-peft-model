@@ -1,0 +1,90 @@
+# ESG 훈련 데이터 파일들
+gri_data_fixed_corrected.jsonl
+gri_data_fixed.jsonl
+gri_data_sample.jsonl
+gri_data.jsonl
+gri_data.txt
+
+# 모델 파일들 (용량이 크므로 제외)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# LoRA 훈련 결과물들
+lora_results*/
+lora_corrected/
+*.adapter/
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+gri-env/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 시스템 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 캐시
+.cache/
+*.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 개인 설정 파일
+config.json
+secrets.json
+.secrets 
