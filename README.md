@@ -31,14 +31,14 @@
 ### 시스템 요구사항
 - **OS**: Windows 10/11
 - **GPU**: NVIDIA RTX 5060 (8GB VRAM)
-- **Python**: 3.8+
+- **Python**: 3.12.7 (권장)
 - **CUDA**: 12.8+
 
 ### 의존성 설치
 
 1. **Conda 환경 생성**
 ```bash
-conda create -n gri-env python=3.10
+conda create -n gri-env python=3.12.7
 conda activate gri-env
 ```
 
@@ -259,6 +259,6 @@ gri-peft/
 
 ---
 
-**개발 환경**: Windows 10 + NVIDIA RTX 5060 + Python 3.10  
+**개발 환경**: Windows 11 + NVIDIA RTX 5060 + Python 3.12.7  
 **라이선스**: MIT License  
 **마지막 업데이트**: 2024년 12월 
